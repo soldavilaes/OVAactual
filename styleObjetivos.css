@@ -127,7 +127,7 @@ header h1 {
 
 
 #cabecera {
-  background: #507DBC;
+  background: #617C99;
   position: relative;
   display: block;
   margin-right: auto;
@@ -142,7 +142,7 @@ header h1 {
     width: 180px;
     height: 25px;
     position: relative;
-    background: red;
+    background: #ff9d3f;
     top: 5px;
     left: -4px;
   }
@@ -166,9 +166,9 @@ header h1 {
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 12px solid red;
+    border-left: 12.98px solid #ff9d3f;
     border-top: 13px solid transparent;
-    border-bottom: 12px solid transparent;
+    border-bottom: 12.98px solid transparent;
   }
 /* Capa de Escenario */
 #escenario{
@@ -188,7 +188,7 @@ header h1 {
 
   #escenario p{
     position: absolute;
-    top: 18px;
+    top: 21px;
     font-style: italic;
     color: #000000;
     
@@ -202,10 +202,10 @@ header h1 {
   }
 /*Capa de Contenido General*/
 #contenidoGeneral{
-    width: 96%;
-    height: 470px;
+    width: 97.4%;
+    height: 467px;
     background: white;
-    margin: 17px 20px 35px;
+    margin: 20px 13px 35px;
     position: relative;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -329,10 +329,10 @@ header h1 {
   width  : 300px;
   height : 190px;
   margin : 14px 40px;
-  background-color: blue;
+  background-color: #FF8000;
   float  : left;
   left: 70px;
-  top: -15px;
+  top: 10px;
   cursor : pointer;
   box-shadow : 10px 9px 10px 0px rgba(0,0,0,0.5);
 }
@@ -391,7 +391,7 @@ header h1 {
   bottom : 100%;
   width : inherit;
   height: inherit;
-  background-color : #e43;
+  background-color : #FF7700;
   transition   : all .3s;
 }
 
@@ -406,7 +406,7 @@ header h1 {
 .two {
   width : inherit;
   height: inherit;
-  background-color : #e43;
+  background-color : #FF7700;
   transition   : all .3s;
   left   : 0;
   bottom : 100%;
@@ -426,7 +426,7 @@ header h1 {
   top  : 0;
   width : inherit;
   height: inherit;
-  background-color : #e43;
+  background-color : #FF7700;
   transition   : all .3s;
   transform: scale(0,0);
 }
@@ -443,7 +443,7 @@ header h1 {
 .four {
   width : inherit;
   height: inherit;
-  background-color : #e43;
+  background-color : #FF7700;
   transition   : all .3s;
   left : 0;
   top  : 0;
