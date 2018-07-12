@@ -45,9 +45,15 @@ p {
 img {
   display: block;
   width: absolute;
+  position: absolute;
 }
-h1, h2, h4, h5, h6 {
+h1, h5, h6 {
   color: #555;
+  padding: 15px 7px 7px;
+   font-family: 'Open Sans', sans-serif;
+}
+h2{
+  color:#000000;
   padding: 10px 7px 7px;
    font-family: 'Open Sans', sans-serif;
 }
@@ -56,8 +62,14 @@ h3 {
   padding: 0px 3px 7px;
    font-family: 'Open Sans', sans-serif;
 }
+h4{
+  color: #000000;
+  padding: 0px 3px 7px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
 
-header {
+/*header {
   background: #161616;
   border-bottom: 1px solid #1C1C1C;
   box-shadow: 1px 0 2px rgba(0,0,0,.5);
@@ -100,7 +112,7 @@ header h1 {
   top: -96px;
   margin-right: auto;
   height: 670px;
- /* padding: 22.5%;*/
+ /* padding: 22.5%;
   background-color: #507DBC;
   left: 205px;
   
@@ -111,11 +123,11 @@ header h1 {
   -webkit-transition: all 500ms ease-in-out;
      -moz-transition: all 500ms ease-in-out;
           transition: all 500ms ease-in-out;
-}
+}*/
 
 
 #cabecera {
-  background: #A1C6EA;
+  background: #507DBC;
   position: relative;
   display: block;
   margin-right: auto;
@@ -123,10 +135,9 @@ header h1 {
   top: 10px;
   width: 970px;
   height: 45px;
-  left: -100px;
-  
+  left: -100px; 
 }
-
+/* Autoforma de Titulo*/
   #pointer {
     width: 180px;
     height: 25px;
@@ -159,7 +170,7 @@ header h1 {
     border-top: 13px solid transparent;
     border-bottom: 12px solid transparent;
   }
-
+/* Capa de Escenario */
 #escenario{
     display: block;
     position: relative;
@@ -175,18 +186,32 @@ header h1 {
 
   }
 
-#contenidoGeneral{
+  #escenario p{
+    position: absolute;
+    top: 18px;
+    font-style: italic;
+    color: #000000;
+    
+  }
 
+  #escenario img{
+    vertical-align: middle;
+     position: absolute;
+    top: 26px;
+    left: 555px;
+  }
+/*Capa de Contenido General*/
+#contenidoGeneral{
     width: 96%;
-    height: 488px;
+    height: 470px;
     background: white;
-    margin: 0px 20px 35px;
+    margin: 17px 20px 35px;
     position: relative;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-
+/*
 .bigger {
   margin: 0;
   font-size: 60px;
@@ -287,7 +312,7 @@ header h1 {
   }
 }
 
-
+/*Efecto sobre Objetivos*/
 .container {
   width  : 900px;
   margin : 0 auto;
@@ -303,7 +328,7 @@ header h1 {
   padding: 10px;
   width  : 300px;
   height : 190px;
-  margin : 17px 40px;
+  margin : 14px 40px;
   background-color: blue;
   float  : left;
   left: 70px;
@@ -324,8 +349,8 @@ header h1 {
   background-color : rgba(0,0,0,0.5);
   width            : 280px;
   height           : 170px;
-  padding          : 0px;
-  top : 0;
+  padding          : 5px;
+  top : 0px;
   left: 0;
   font-family : 'Open Sans', sans-serif;
   color       : #fff;
@@ -347,6 +372,7 @@ header h1 {
   font-style: italic;
   text-align: center;
   line-height : 20px;
+  margin-top : 30px;
 }
 
 .items:hover .details {
@@ -460,6 +486,7 @@ header h1 {
   height: 500px;
 }
 */
+/*
 section, article, div, .box {
   overflow: hidden;
   position: relative;
@@ -470,10 +497,11 @@ section, article, div, .box {
   color: #858585;
   height: 100%;
   position: fixed;
-  top: 26px;
+  top: 29.1px;
   width: 205px;
- /* z-index: 99;*/
-}
+ /* z-index: 99;
+}*/
+/*
 [id*="menu-"] .box {
   height: 100%;
   margin: 0;
@@ -529,8 +557,10 @@ section, article, div, .box {
   position: relative;
   height: initial;
   width: 100%; 
+
 }
 /* Titulos Principales */
+/*
 #menu-left .content h5 {
   background: #353535;
   color: #CCC;
@@ -538,7 +568,9 @@ section, article, div, .box {
   font-size: 16px;
   cursor: pointer;
   border-bottom: 1px solid #FFFFFF;
-}
+  height: 47.1px; 
+}*/
+/*
 #menu-left .content i.fa-chevron-down {
  float: right;
   left: auto;
@@ -554,6 +586,7 @@ section, article, div, .box {
   transition: border 0.5s; 
 }
 /* Efecto SubItems */
+/*
 #menu-left .content  li:hover {
  background: #9eccb3;
  border-left: 5px solid #eee;
