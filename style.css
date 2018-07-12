@@ -45,15 +45,22 @@ p {
 img {
   display: block;
   width: absolute;
+  position: absolute;
 }
-h1, h2, h4, h5, h6 {
+h1, h4, h5, h6 {
   color: #555;
   padding: 15px 7px 7px;
    font-family: 'Open Sans', sans-serif;
 }
+h2{
+  color:#000000;
+  padding: 10px 7px 7px;
+   font-family: 'Open Sans', sans-serif;
+   text-shadow: white 0.1em 0.0em 0.2em;
+}
 h3 {
-  color: #555;
-  padding: 7px 3px 7px;
+  color: #000000;
+  padding: 0px 3px 7px;
    font-family: 'Open Sans', sans-serif;
 }
 
@@ -130,15 +137,15 @@ header h1 {
 }
 
   #pointer {
-    width: 200px;
-    height: 40px;
+    width: 220px;
+    height: 25px;
     position: relative;
-    background: #ff9F1C;
-    top: 2px;
-    left: 20px;
-
+    background: #ff9d3f;
+    top: 5px;
+    left: -4px;
   }
-  #pointer:after {
+
+  /* #pointer:after {
     content: "";
     position: absolute;
     left: -20px;
@@ -148,17 +155,18 @@ header h1 {
     border-left: 15px solid white;
     border-top: 21px solid transparent;
     border-bottom: 21px solid transparent; 
-  }
+  }*/
+
   #pointer:before {
     content: "";
     position: absolute;
-    right: -20px;
+    right: -11px;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 20px solid #ff9F1C;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-left: 12.98px solid #ff9d3f;
+    border-top: 13px solid transparent;
+    border-bottom: 12.98px solid transparent;
   }
 
 #escenario{
@@ -176,12 +184,26 @@ header h1 {
 
   }
 
-#contenidoGeneral{
+  #escenario p{
+    position: absolute;
+    top: 21px;
+    font-style: italic;
+    color: #000000;
+    
+  }
 
-    width: 96%;
-    height: 483px;
+  #escenario img{
+    vertical-align: middle;
+     position: absolute;
+    top: 26px;
+    left: 555px;
+  }
+/*Capa de Contenido General*/
+#contenidoGeneral{
+    width: 97.4%;
+    height: 467px;
     background: white;
-    margin: 0px 20px 35px;
+    margin: 20px 13px 35px;
     position: relative;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -366,7 +388,7 @@ section, article, div, .box {
 }
 #menu-left .profile {
   background: #222;
-  border-bottom: 5px solid #8A0868;
+  border-bottom: 5px solid #161616;
   padding: 8px 5px;
 }
 #menu-left .profile  img {
