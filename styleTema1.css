@@ -758,6 +758,10 @@ header.active, .intro.active, #menu-left.active, footer.active {
   background-color: #1d475f;
 }
 
+.tabFour {
+  background-color: red;
+}
+
 .panel {
   width: 85%;
   margin: 1rem auto;
