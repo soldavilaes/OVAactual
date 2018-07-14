@@ -70,7 +70,7 @@ and open the template in the editor.
   color: white;
   letter-spacing: 2px;
   top: -9px;
-  transition: 0.2s; 
+  transition: 0.1s; 
   
 }
 
@@ -99,7 +99,7 @@ and open the template in the editor.
   margin: 0px;
   position: relative;
   z-index: 100;
-  transition: 0.2s; 
+  transition: 3s; 
   
 }
 
@@ -111,12 +111,16 @@ and open the template in the editor.
 
 .tabTwo {
   background-color: #296586;
-  transition: 0.2s; 
+  transition: 3s; 
 }
 
 .tabThree {
   background-color: #1d475f;
-  
+  transition: 3s; 
+}
+.tabFour{
+  background-color: red;
+  transition: 3s; 
 }
 
 
@@ -184,6 +188,7 @@ h1.panelContent {
 
 <div class="tabbedPanels">
     <ul class="tabs">
+     <li><a href="#panel4" class = "tabFour inactive">4</a></li>  
     <li><a href="#panel1" class = "tabThree inactive">3</a></li>
     <li><a href="#panel2" class = "tabTwo inactive">2</a></li>
     <li><a href="#panel3" class = "tabOne">1</a></li>
@@ -206,6 +211,10 @@ h1.panelContent {
       <div class="panel" id="panel3">
       <h1 class = "panelContent">Contact Us</h1>
       <p class = "panelContent"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum magni error enim labore facere dolore obcaecati voluptate inventore nemo. Dolorum ipsam fuga nesciunt eos incidunt eum beatae quisquam enim.</span><span>Veniam velit quibusdam pariatur et autem veritatis nesciunt minima! Voluptas impedit voluptates amet dolores debitis labore asperiores quis libero est magnam voluptatum alias praesentium magni deserunt beatae optio quam itaque!</span></p>
+    </div>
+     <div class="panel" id="panel4">
+      <h1 class = "panelContent"></h1>
+      <p class = "panelContent"><span></span></p>
     </div>
   </div>
 </div>
