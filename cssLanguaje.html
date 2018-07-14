@@ -39,7 +39,7 @@ and open the template in the editor.
 }
 
 .tabs {
-  margin: 6px;
+  margin: 3px;
   padding: 0px;
 }
 
@@ -47,21 +47,21 @@ and open the template in the editor.
   list-style-type: none;
   float: right;
   text-align: center;
-  margin: -1px -7px;
+  margin: 0px -7px;
 }
 
 .inactive {
   position: relative;
-  top: -5px;
+  top: 0px;
   z-index: 100;
 }
 
 .tabs a {
   display: block;
   text-decoration: none;
-  padding: 1px 1px;
+  padding: 1px 2px;
   box-sixing: border-box;
-  width: 4rem;
+  width: 2.8rem;
   color: black;
   border-radius: 10px 10px 0 0;
   font-family: 'Raleway';
@@ -69,6 +69,8 @@ and open the template in the editor.
   font-size: 1.2rem;
   color: white;
   letter-spacing: 2px;
+  top: -10px;
+  transition: 0.2s; 
 }
 @media only screen and (max-width: 700px) {
   .tabs a {
@@ -86,26 +88,32 @@ and open the template in the editor.
 .tabs a.active {
   border-radius: 10px 10px 0 0;
   position: relative;
-  top: -5px;
+  top: -10px;
   z-index: 100;
 }
 
 .tabOne {
   background-color: #4498c6;
-  left: 
+  margin: 1.5px;
+  position: relative;
+  z-index: 100;
+  transition: 0.2s; 
+}
+
+.tabsOne a {
+ margin: 3px;
 }
 
 .tabTwo {
   background-color: #296586;
+  transition: 0.2s; 
 }
 
 .tabThree {
   background-color: #1d475f;
+  
 }
 
-.tabFour{
-    background-color: red;
-}
 
 .panel {
   width: 98.5%;
@@ -119,10 +127,11 @@ and open the template in the editor.
   clear: left;
   padding: 0px 0px;
   background-color: #4498c6;
-  border-radius: 0 5px 5px 5px;
-  height: 474px;
+  border-radius: 5px 5px 5px 5px;
+  height: 475px;
   width: 100%;
-  top: -23px;
+  top: -26px;
+
 }
 
 .panelContent {
@@ -169,11 +178,10 @@ h1.panelContent {
       <!--  <div id="contenidoGeneral">-->
 
 <div class="tabbedPanels">
-  <ul class="tabs">
-    <li><a href="#panel1" class = "tabOne">4</a></li>
-    <li><a href="#panel2" class = "tabTwo inactive">3</a></li>
-    <li><a href="#panel3" class = "tabThree inactive">2</a></li>
-    <li><a href="#panel3" class = "tabFour inactive">1</a></li>
+    <ul class="tabs">
+    <li><a href="#panel1" class = "tabThree inactive">3</a></li>
+    <li><a href="#panel2" class = "tabTwo inactive">2</a></li>
+    <li><a href="#panel3" class = "tabOne">1</a></li>
   </ul>
   <div class="panelContainer">
     <div class="panel" id="panel1">

@@ -29,4 +29,4 @@ $('body').height(bodyM);
 
  
 
-$('.tabs li:first a').click();
+$('.tabs li:third a').click();
