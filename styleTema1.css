@@ -788,6 +788,12 @@ h1.panelContent {
   font-size: 2.2rem;
 }
 
+.panelContent img {
+  position: relative;
+  
+  margin: -26px -555px;
+}
+
 @media only screen and (max-width: 700px) {
   html {
     font-size: 14px;
