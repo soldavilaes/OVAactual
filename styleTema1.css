@@ -780,15 +780,16 @@ h1.panelContent {
 h1.panelContent img {
   position: absolute;
   
-  margin: -25px -730px;
+  margin: -25px -558px;
 }
+
 .panelContent span {
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   position: absolute;
-  width: 665px;
-  top: 30px;
+  width: 645px;
+  top: 50px;
   left: 20px;
 }
 #parrafo2 span{
@@ -796,20 +797,27 @@ h1.panelContent img {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   position: absolute;
-  width: 650px;
-  top: 210px;
+  width: 635px;
+  top: 235px;
   line-height: 1;
-  left: 220px; 
+  left: 235px; 
+}
+#panel1 .panelContent {
+  height: 204px;
 }
 
+
 #panel1 img{
-  float: left;
-  position: absolute;
-  left: 727px;
+  
+}
+
+#imagen1{
+  margin: 20px 155px;
   border-radius: 10px 10px 10px 10px;
 }
+
 #imagen2 {
-  margin: 208px -675px; 
+  margin: 220px -502px; 
    border-radius: 10px 10px 10px 10px;
 }
 
@@ -823,6 +831,10 @@ h1.panelContent img {
     font-size: 12px;
   }
 }
+
+
+
+
 
 
 
