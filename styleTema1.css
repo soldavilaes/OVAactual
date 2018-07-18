@@ -802,10 +802,21 @@ h1.panelContent img {
   line-height: 1;
   left: 235px; 
 }
+
+#parrafo3 span{
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  width: 880px;
+  top: 35px;
+  line-height: 1;
+  left: 5px; 
+ }
+
 #panel1 .panelContent {
   height: 204px;
 }
-
 
 #panel1 img{
   
@@ -819,6 +830,18 @@ h1.panelContent img {
 #imagen2 {
   margin: 220px -502px; 
    border-radius: 10px 10px 10px 10px;
+}
+
+.quote{
+text-align: center;
+margin: 20px 230px;
+border-radius: 10px 10px 10px 10px;
+background-color: #E6E6FA;
+border: solid 1px red;
+color: #000000;
+height: 30px;
+top: -320px;
+width: 430px;
 }
 
 @media only screen and (max-width: 700px) {
