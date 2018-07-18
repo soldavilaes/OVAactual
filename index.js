@@ -44,17 +44,17 @@ $(function() {
 });
 $(document).ready(function(e){
   $('#itemObjetivos').on('click', function(){
-    $('#content').load('inicio.html')
+    $('#content').load('objetivos.html')
   });
 });
 $(document).ready(function(e){
   $('#itemActividad').on('click', function(){
-    $('#content').load('jsLanguaje.html')
+    $('#content').load('actividad.html')
   });
 });
 $(document).ready(function(e){
   $('#itemTema1').on('click', function(){
-    $('#content').load('cssLanguaje.html')
+    $('#content').load('tema1.html')
   });
 });
 
