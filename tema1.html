@@ -14,6 +14,9 @@ and open the template in the editor.
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
 <!--
         <meta name="viewport" content="width=device-width">
 
@@ -211,15 +214,53 @@ h1.panelContent {
           <img id="imagen2" src="foto3_opt.png"  /><p id="parrafo2"><span>Organizar la información en forma de listas es una tarea realizamos regularmente cuando planificamos una actividad, como preparar un evento, planear un viaje o ir de compras. Ejemplos de estas estructuras son: listas de útiles escolares, listas de los equipos de futbol de Colombia, listas de estudiantes de una institución, listas de productos en un inventario, listas de los empleados de una empresa, listas de chequeo, entre otras.
           </span></p>
         </div>
-        <div class="panel" id="panel2">
-          <h1 class = "panelContent">Details</h1>
-          <p class = "panelContent"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum magni error enim labore facere dolore obcaecati voluptate inventore nemo. Dolorum ipsam fuga nesciunt eos incidunt eum beatae quisquam enim.</span><span>Veniam velit quibusdam pariatur et autem veritatis nesciunt minima! Voluptas impedit voluptates amet dolores debitis labore asperiores quis libero est magnam voluptatum alias praesentium magni deserunt beatae optio quam itaque!</span></p>
-          <p class = "panelContent"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum magni error enim labore facere dolore obcaecati voluptate inventore nemo. Dolorum ipsam fuga nesciunt eos incidunt eum beatae quisquam enim.</span><span>Veniam velit quibusdam pariatur et autem veritatis nesciunt minima! Voluptas impedit voluptates amet dolores debitis labore asperiores quis libero est magnam voluptatum alias praesentium magni deserunt beatae optio quam itaque!</span></p>
+        
+  <div class="panel" id="panel2">       
+  <div class="modal-wrap">
+  <div class="modal-header"><span class="is-active"></span><span></span><span></span></div>
+  <div class="modal-bodies">
+    <div class="modal-body modal-body-step-1 is-showing">
+      <div class="title">Step 1</div>
+      <div class="description">Hello there, Let's play a game.</div>
+      <form>
+        <input type="text" placeholder="Name"/>
+        <input type="email" placeholder="Email"/>
+        <div class="text-center">
+          <div class="button">Start</div>
         </div>
-        <div class="panel" id="panel2">
-          <h1 class = "panelContent">Details</h1>
-          <p class = "panelContent"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea illum magni error enim labore facere dolore obcaecati voluptate inventore nemo. Dolorum ipsam fuga nesciunt eos incidunt eum beatae quisquam enim.</span><span>Veniam velit quibusdam pariatur et autem veritatis nesciunt minima! Voluptas impedit voluptates amet dolores debitis labore asperiores quis libero est magnam voluptatum alias praesentium magni deserunt beatae optio quam itaque!</span></p>
+      </form>
+    </div>
+    <div class="modal-body modal-body-step-2">
+      <div class="title">Step 2</div>
+      <div class="description">Would you rather</div>
+      <form>
+        <label>
+          <input type="radio" name="radio"/>live one life that lasts 1,000 years?
+        </label>
+        <label>
+          <input type="radio" name="radio" id="radio2"/>live 10 lives that last 100 years each?
+        </label>
+        <div class="text-center fade-in">
+          <div class="button">Next</div>
         </div>
+      </form>
+    </div>
+    <div class="modal-body modal-body-step-3">
+      <div class="title">Step 3</div>
+      <div class="description">Check your email for the game results.</div>
+      <div class="text-center">
+        <div class="button">Done!</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <div class="rerun-button">ReRun</div>
+</div>
+</div>
+
+
+    
         <div class="panel" id="panel3">
           <h1 class = "panelContent"><img src="quote.png" /></h1>
           <p id="parrafo3"><span> Para definir una lista se debe asignar un nombre y se crea, ya sea vacía o conformada con los elementos que el programador incluya. La expresión para crear una lista tiene la siguiente forma:</span></p>
@@ -233,17 +274,22 @@ h1.panelContent {
         </div>
       </div>
     </div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='https://raw.githubusercontent.com/WickyNilliams/enquire.js/master/dist/enquire.min.js'></script>
+   
 
 
 
-    <script  src="tema1.js"></script>
+   
 
 
 
 
     <!--  </div>-->
   </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://raw.githubusercontent.com/WickyNilliams/enquire.js/master/dist/enquire.min.js'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script  src="tema1.js"></script>
+
+
 </body>
 </html>
