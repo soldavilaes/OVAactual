@@ -844,6 +844,7 @@ color: #000000;
 height: 30px;
 top: -320px;
 width: 430px;
+box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 700px) {
