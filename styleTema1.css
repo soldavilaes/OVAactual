@@ -826,8 +826,10 @@ h1.panelContent img {
   height: 204px;
 }
 
-#panel1 img{
-  
+
+#panel2 {
+  background: radial-gradient(#FFF176, #f7b983);
+  height: 460px;
 }
 
 #imagen1{
@@ -838,6 +840,12 @@ h1.panelContent img {
 #imagen2 {
   margin: 220px -502px; 
    border-radius: 10px 10px 10px 10px;
+}
+
+#imagen3 {
+  margin: 20px 20px; 
+   position: relative;
+   z-index: 100;
 }
 
 .quote{
@@ -864,21 +872,31 @@ box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0,
   }
 }
 
-
+/* PESTAÑA 2 */
 .title {
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   color: #FF8F00;
   font-weight: 50px;
-  font-size: 24px;
-  letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  top: -40px;
+  text-align: center;
+  margin: 1px 90px;
+  left: 85px;
 }
 
 .description {
-  text-align: center;
-  color: #666;
-  margin-bottom: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  
 }
 
 input[type="text"],
@@ -916,7 +934,22 @@ label:first-child {
   border-bottom: none;
 }
 
-.button,
+.button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background: #FF6F00;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer; 
+}
+
+#start {
+  margin: 270px  1px;
+}
+
+
 .rerun-button {
   padding: 10px 20px;
   border-radius: 3px;
@@ -925,8 +958,10 @@ label:first-child {
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
-  cursor: pointer;
+  cursor: pointer; 
+
 }
+
 .button:hover,
 .rerun-button:hover {
   background: #e66400;
@@ -937,6 +972,7 @@ label:first-child {
   margin-bottom: 50px;
   box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.2);
   display: none;
+
 }
 
 .text-center {
@@ -944,20 +980,21 @@ label:first-child {
 }
 
 .modal-wrap {
-  max-width: 600px;
-  margin: 50px auto;
+  max-width: 850px;
+  margin: -2px auto;
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-}
+  }
 
 .modal-header {
-  height: 45px;
-  background: white;
+  height: 25px;
+   background: radial-gradient(#f2efed, #d1cdca);
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .modal-header span {
   display: block;
@@ -990,6 +1027,7 @@ label:first-child {
   width: 100%;
   -webkit-transform-origin: top left;
           transform-origin: top left;
+  height: 390px;
 }
 .modal-body.is-showing {
   display: flex;
@@ -1064,6 +1102,8 @@ label:first-child {
             transform: rotateX(0deg);
   }
 }
+
+/* PESTAÑA 3*/
 .container {
   width: 800px;
   height: 500px;
