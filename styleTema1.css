@@ -908,8 +908,8 @@ box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0,
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   height: 850px;
-  top: 40px;
-  
+  top: 35px;
+
   
 }
 
@@ -925,7 +925,7 @@ box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0,
   font-size: 20px;
   height: 850px;
   margin: -20px;
-  font-style: normal;
+ 
 }
 
 input[type="text"],
@@ -1133,6 +1133,98 @@ label:first-child {
             transform: rotateX(0deg);
   }
 }
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.containerMas, .buttonMas {
+  position: absolute;
+}
+
+
+.nav {
+  position: relative;
+}
+
+.containerMas {
+  margin: auto;
+  top: 160px;
+  left: 150px;
+  margin-left: 90px;
+}
+
+#toggle {
+  display: none;
+}
+
+.buttonMas {
+  z-index: 999;
+  width: 43px;
+  height: 43px;
+  background: #F28482;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  left: 14px;
+
+}
+.buttonMas:before {
+  position: absolute;
+  top: 20px;
+  left: 9px;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #FFF;
+  transform: rotate(90deg);
+}
+.buttonMas:after {
+  position: absolute;
+  top: 20px;
+  left: 9px;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #FFF;
+}
+
+.nav {
+  transform: translateY(-10%);
+  opacity: 0;
+  top: 13px;
+  margin-left: 20px;
+  transition: all 0.5s ease-in-out;
+  background: #99e265;
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+  transform: translateY(0%);
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav a {
+  text-align: center;
+  display: block;
+  margin: 20px 0;
+  color: #F28482;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#toggle:checked ~ .nav {
+  opacity: 1;
+  transform: translateY(10%);
+}
+
+#toggle:checked ~ .button {
+  transform: rotate(135deg);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+
+
 
 /* PESTAÑA 3*/
 .container {
