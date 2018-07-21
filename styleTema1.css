@@ -843,7 +843,7 @@ h1.panelContent img {
 }
 
 #imagen3 {
-  margin: 20px 20px; 
+ margin: 45px  -450px;
    position: relative;
    z-index: 100;
 }
@@ -896,6 +896,7 @@ box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0,
   right: 10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  height: 850px;
   
 }
 
@@ -943,10 +944,11 @@ label:first-child {
   letter-spacing: 1px;
   display: inline-block;
   cursor: pointer; 
+
 }
 
 #start {
-  margin: 270px  1px;
+  margin: 265px  1px;
 }
 
 
