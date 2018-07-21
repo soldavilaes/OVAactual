@@ -843,9 +843,14 @@ h1.panelContent img {
 }
 
 #imagen3 {
- margin: 45px  -450px;
+ margin: 20px  -450px;
    position: relative;
    z-index: 100;
+}
+
+#imagen4 {
+  margin: 2px  50px;
+  position: relative;
 }
 
 .quote{
@@ -878,12 +883,13 @@ box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0,
   margin-bottom: 20px;
   color: #FF8F00;
   font-weight: 50px;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   top: -40px;
   text-align: center;
   margin: 1px 90px;
-  left: 85px;
+  left: 122px;
+  font-weight: bold;
 }
 
 .description {
@@ -948,7 +954,8 @@ label:first-child {
 }
 
 #start {
-  margin: 265px  1px;
+  margin: 240px;
+ left: 480px;
 }
 
 
@@ -978,7 +985,7 @@ label:first-child {
 }
 
 .text-center {
-  text-align: center;
+  
 }
 
 .modal-wrap {
