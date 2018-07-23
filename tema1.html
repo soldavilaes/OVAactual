@@ -19,7 +19,7 @@ and open the template in the editor.
 <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600'>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
-
+<link href="https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i,800,800i,900,900i" rel="stylesheet">
 <!--
 	<meta name="viewport" content="width=device-width">
 
@@ -227,7 +227,7 @@ and open the template in the editor.
 										<div class="description"><p>Una lista se puede definir como un conjunto de elementos que puede ser del mismo o de diferentes  tipos de datos, agrupados bajo una misma denominación (nombre de la lista) o sin un nombre determinado.</p>
 											<img id="imagen3" src="definicionLista_opt.png"  />
 											
-											<div id="start" class="button" >Start</div>
+											<div id="start" class="button" >Siguiente</div>
 
 										</div>
 											<div class="text-center">
@@ -237,6 +237,7 @@ and open the template in the editor.
   												<input type="checkbox" id="toggle" />
    												 <label class="buttonMas" for="toggle"></label>
   													<nav class="nav">
+  														<br>
   														 una lista es un tipo de dato en DrRacket, que se caracteriza por ser dinámica, ya que se le puede añadir información.
   															</nav>
   															</div>
@@ -291,6 +292,18 @@ and open the template in the editor.
 									<summary>Elementos</summary>
 									<p>Donde los elem1 elem2 elem3…elemn son los componentes de la lista. Cada elemento puede ser un dato de <br> diferente tipo, ya sea numérico, carácter, cadena, símbolo u otra lista.</p>
 								</details>
+								<br>
+								<br>
+								<br>
+								<br>
+								 <div class="click">
+  									<button onclick="simulator_FB ()" Id="click_button"> Click here </button>
+								</div>
+
+								<div Id="window">
+ 								 <p>Here Pop up window</p>
+ 								 <button onclick="simulator_FB_close ()" Id="close">Close</button>
+								</div>
 							</div>      
 						</div>
 						<div class="panel" id="panel4">
@@ -314,8 +327,9 @@ and open the template in the editor.
 			<script src='https://raw.githubusercontent.com/WickyNilliams/enquire.js/master/dist/enquire.min.js'></script>
 			<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
 			<script  src="tema1.js"></script>
 			<script  src="pestaña2.js"></script>
-
+			<script  src="boton.js"></script>
 		</body>
 		</html>

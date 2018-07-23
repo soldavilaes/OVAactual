@@ -908,7 +908,7 @@ box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0,
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   height: 850px;
-  top: 35px;
+  top: 39px;
 
   
 }
@@ -977,7 +977,8 @@ label:first-child {
 
 #start {
   margin: 305px;
- left: 419px;
+ left: 400px;
+ font-size: 14px;
 }
 
 
@@ -1134,8 +1135,9 @@ label:first-child {
   }
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto");
 
+/* BOTON +*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 .containerMas, .buttonMas {
   position: absolute;
 }
@@ -1148,7 +1150,7 @@ label:first-child {
 .containerMas {
   margin: auto;
   top: 160px;
-  left: 150px;
+  left: 70px;
   margin-left: 90px;
 }
 
@@ -1165,9 +1167,14 @@ label:first-child {
   transition: all 0.5s ease-in-out;
   box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  left: 14px;
+  left: 88px;
 
 }
+
+.buttonMas:hover {
+  background: red;
+}
+
 .buttonMas:before {
   position: absolute;
   top: 20px;
@@ -1191,15 +1198,20 @@ label:first-child {
 .nav {
   transform: translateY(-10%);
   opacity: 0;
-  top: 13px;
+  top: 18px;
   margin-left: 20px;
   transition: all 0.5s ease-in-out;
   background: #99e265;
   width: 180px;
-  height: 180px;
+  height: 150px;
   border-radius: 5px;
   transform: translateY(0%);
   box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Sansita;
+  line-height: 1;
+  color: #000000;
+  font-weight: lighter;
 }
 
 .nav a {
@@ -1222,6 +1234,7 @@ label:first-child {
   transform: rotate(135deg);
   box-shadow: 0 0 0 0 transparent;
 }
+
 
 
 
@@ -1347,6 +1360,51 @@ summary:after {
   content: "➖";
 }
 
+.click{
+  margin:0 auto;
+  text-align:center;
+
+
+}
+button{
+ 
+  text-align:center;
+  width:120px;
+  border:none;
+  height:50px;
+  font-family:tahoma;
+  font-size:17px;
+ 
+ left: 330px;
+}
+
+#window
+{
+  width:500px;
+  height:200px;
+  background-color:#f00;
+  position:relative;
+  text-align:center;
+  top:-250px;
+  left:10%;
+  border-radius:10%;
+  display:none;
+}
+
+#window p{
+ font-family:tahoma;
+ font-size:17px;
+  line-height:100px;
+}
+#close{
+  position:absolute;
+  top:-10px;
+  right:0px;
+  cursor:pointer;
+  background-color:#f00;
+  font-family:tahoma;
+  color:#FFF;
+}
 
 
 
