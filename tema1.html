@@ -21,6 +21,7 @@ and open the template in the editor.
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 <link href="https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+<link href="lightbox.css" rel="stylesheet">
 <!--
 	<meta name="viewport" content="width=device-width">
 
@@ -224,15 +225,10 @@ and open the template in the editor.
 								<div class="modal-header"><span class="is-active"></span><span></span><span></span></div>
 								<div class="modal-bodies">
 									<div class="modal-body modal-body-step-1 is-showing">
-										<img id="imagen4" src="concepto-listas.png"  />
+										<img src="listaDr.png"  />
 										<div class="description"><p>Una lista se puede definir como un conjunto de elementos que puede ser del mismo o de diferentes  tipos de datos, agrupados bajo una misma denominación (nombre de la lista) o sin un nombre determinado.</p>
-											<img id="imagen3" src="definicionLista_opt.png"  />
-											
+											<img id="imagen3" src="definicionLista_opt.png"  />		
 											<div id="start" class="button" >Siguiente</div>
-
-										</div>
-										<div class="text-center">
-
 										</div>	
 										<div class="containerMas">
 											<input type="checkbox" id="toggle" />
@@ -245,9 +241,9 @@ and open the template in the editor.
 									</div>
 									
 									<div class="modal-body modal-body-step-2">
-										<img id="imagen5" src="listaVacia.png"  />
-										<div class="description"><p id="lVacia">Una lista vacía consiste en un elemento especial que no es un símbolo (un identificador) ni una pareja (estructura de datos conformada por dos campos cabeza y cola), pero sí una lista. 
-										</p>
+										<h1 class = "panelContent"><img id="imagen5" src="listaVacia.png"  /><h1>
+										<div class="description"><p id="lVacia"><span>Una lista vacía consiste en un elemento especial que no es un símbolo (un identificador) ni una pareja (estructura de datos conformada por dos campos cabeza y cola), pero sí una lista. 
+										</span></p>
 										<div class="oblicuo outline">
 											<div class="contenido">
 												Se trata de un objeto atómico que denota una lista vacía.
@@ -260,11 +256,16 @@ and open the template in the editor.
 									</div>
 								</div>
 								<div class="modal-body modal-body-step-3">
-									<div class="title">Step 3</div>
-									<div class="description">Check your email for the game results.</div>
-									<div class="text-center">
-										<div class="button">Done!</div>
+									<h1 class="panelContent"><img src="listaDr.png"  /></h1>
+									<div class="description"><p id="lVacia1"><span>Una lista vacía se puede escribir de diferentes formas en DrRacket como se muestra a continuación: </span></p>
 									</div>
+									<div class="caja">Con la constante especial <b>empty</b></div>
+									<div class="caja1">Con la constante especial  <b>null</b></div>
+									<div class="caja2">Con la forma tradicional de Lisp: <b>'()</b>, que es un carácter de apóstrofe seguido de paréntesis vacíos.</div>
+									<div class="text-center">
+										<div id="botonStep3" class="button">Done!</div>
+									</div>
+   		 							<!--<img class="lightbox" src="https://www.istockphoto.com/resources/images/PhotoFTLP/img_82250973.jpg" />-->
 								</div>
 							</div>
 						</div>
@@ -316,7 +317,7 @@ and open the template in the editor.
 
 
 						<div class="panel" id="panel4">
-							<h1 class = "panelContent"></h1>
+							<h1 class = "panelContent"><img src="quote.png" /></h1>
 							<p class = "panelContent"><span></span></p>
 						</div>
 					</div>
@@ -330,6 +331,8 @@ and open the template in the editor.
 			<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    		<script src="lightbox.js"></script>
 			<script  src="tema1.js"></script>
 			<script  src="pestaña2.js"></script>
 			<script  src="boton.js"></script>
