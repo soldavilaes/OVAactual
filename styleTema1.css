@@ -833,6 +833,19 @@ h1.panelContent img {
    font-style: normal;
  }
 
+ #lVacia2 span {
+   font-style: normal;
+   font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  width: 880px;
+  top: 140px;
+  line-height: 1;
+  left: 5px; 
+  color: #f75904;
+  font-weight: bold;
+ }
+
 
 #panel1 .panelContent {
   height: 204px;
