@@ -774,15 +774,18 @@ header.active, .intro.active, #menu-left.active, footer.active {
   font-family: Open Sans;
   padding: 0 1rem;
   font-size: 1.2rem;
-   font-style: normal;
+  font-family:'Open Sans', sans-serif;
 }
 
 #panel3{
 height: 460px;
+
+
 }
 
 h1.panelContent {
   font-size: 2.2rem;
+  
 }
 /*Titulo*/
 h1.panelContent img {
@@ -813,7 +816,7 @@ h1.panelContent img {
 
 #parrafo3 span{
   font-style: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-size: 20px;
   position: absolute;
   width: 880px;
@@ -862,17 +865,17 @@ h1.panelContent img {
    z-index: 100;
 }
 
-.quote{
-text-align: center;
-margin: 20px 230px;
-border-radius: 10px 10px 10px 10px;
-background-color: #E6E6FA;
-border: solid 1px red;
-color: #000000;
-height: 30px;
-top: -320px;
-width: 430px;
-box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0, 0, 0, 0.5);
+.quote {
+    text-align: center;
+    margin: 35px 230px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #E6E6FA;
+    border: solid 1px red;
+    color: #000000;
+    height: 35px;
+    top: -320px;
+    width: 430px;
+    box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 700px) {
@@ -1301,19 +1304,14 @@ label:first-child {
   text-align: center;
 }
 
-
-
-
-
-
-
-
 /* PESTAÑA 3*/
 .container {
-  width: 800px;
-  height: 350px;
-  top: -320px;
-  left: 55px;
+ width: 800px;
+height: 350px;
+top: 195px;
+left: 75px;
+position: absolute;
+font-family:'Open Sans', sans-serif;
 
 }
 .container summary{
@@ -1335,6 +1333,7 @@ details {
   -webkit-transform: rotate(0.1deg);
           transform: rotate(0.1deg);
   transition: all 0.3s;
+  font-family:'Open Sans', sans-serif;
   
 }
 
@@ -1429,18 +1428,25 @@ summary:after {
   content: "➖";
 }
 
-.click{
-  margin:0 auto;
-  text-align:center;
+.botonPestaña3 {
+width: 910px;
+height: 200px;
+top: -525px;
 
+}
+
+.click{
+  
+  text-align:center;
+top: 160px;
 
 }
 button{
  
   text-align:center;
-  width:50px;
+  width:40px;
   border:none;
-  height:50px;
+  height:40px;
   font-family:'Open Sans', sans-serif;
   font-size:17px;
   float: right;
@@ -1448,38 +1454,51 @@ button{
   cursor: pointer;
   z-index: 999;
  border-radius: 80%;
-box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+
    
 }
 
 #window
 {
-  width:450px;
-  height:200px;
-  background-color:#f00;
-  position:relative;
-  text-align:center;
-  top:-250px;
-  left:20%;
-  border-radius:10%;
-  display:none;
+width: 900px;
+height: 158px;
+background: rgba(0,0,0,.8);
+opacity: 15px;
+position: relative;
+text-align: center;
+border-radius: 10px;
+display: none;
+
+
 }
 
 #window p{
- font-family: 'Open Sans', sans-serif;
- font-size:17px;
-  line-height:100px;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+line-height: 100px;
+font-family: 'Open Sans', sans-serif;
+padding: 10px 3px;
+font-size: 5px;
+line-height: 100px;
+background: #FFFF;
+left: 238px;
+top: 5px;
+width: 420px;
+height: 95px;
+text-indent: 5px;
+text-align: justify;
+
 }
 #close{
-  position:absolute;
-  top:-10px;
-  right:0px;
-  cursor:pointer;
-  background-color:#f00;
-  font-family:'Open Sans', sans-serif;
-  color:#FFF;
+position: absolute;
+top: 5px;
+right: 0px;
+cursor: pointer;
+background-color: #f00;
+font-family: 'Open Sans', sans-serif;
+color: #FFF;
+font-size: 17px;
 }
-
 
 
 

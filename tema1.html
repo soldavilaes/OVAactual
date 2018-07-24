@@ -231,80 +231,88 @@ and open the template in the editor.
 											<div id="start" class="button" >Siguiente</div>
 
 										</div>
-											<div class="text-center">
-												
-											</div>	
-											<div class="containerMas">
-  												<input type="checkbox" id="toggle" />
-   												 <label class="buttonMas" for="toggle"></label>
-  													<nav class="nav">
-  														<br>
-  														 una lista es un tipo de dato en DrRacket, que se caracteriza por ser dinámica, ya que se le puede añadir información.
-  													</nav>
-  											</div>
+										<div class="text-center">
+
+										</div>	
+										<div class="containerMas">
+											<input type="checkbox" id="toggle" />
+											<label class="buttonMas" for="toggle"></label>
+											<nav class="nav">
+												<br>
+												una lista es un tipo de dato en DrRacket, que se caracteriza por ser dinámica, ya que se le puede añadir información.
+											</nav>
+										</div>
 									</div>
 									
 									<div class="modal-body modal-body-step-2">
 										<img id="imagen5" src="listaVacia.png"  />
 										<div class="description"><p id="lVacia">Una lista vacía consiste en un elemento especial que no es un símbolo (un identificador) ni una pareja (estructura de datos conformada por dos campos cabeza y cola), pero sí una lista. 
-										 </p>
+										</p>
 										<div class="oblicuo outline">
-  											<div class="contenido">
-   												  Se trata de un objeto atómico que denota una lista vacía.
- 											 </div>
+											<div class="contenido">
+												Se trata de un objeto atómico que denota una lista vacía.
+											</div>
 										</div>
 										<img id="imagen6" src="comprobacionI.png"  />
 										
-												<div id="botonStep2" class="button">Siguiente</div>
-											
-										</div>
-									</div>
-									<div class="modal-body modal-body-step-3">
-										<div class="title">Step 3</div>
-										<div class="description">Check your email for the game results.</div>
-										<div class="text-center">
-											<div class="button">Done!</div>
-										</div>
+										<div id="botonStep2" class="button">Siguiente</div>
+
 									</div>
 								</div>
-							</div>
-							<div class="text-center">
-								<div class="rerun-button">ReRun</div>
+								<div class="modal-body modal-body-step-3">
+									<div class="title">Step 3</div>
+									<div class="description">Check your email for the game results.</div>
+									<div class="text-center">
+										<div class="button">Done!</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						
-
-						<div class="panel" id="panel3">
-							<h1 class = "panelContent"><img src="quote.png" /></h1>
-							<p id="parrafo3"><span> Para definir una lista se debe asignar un nombre y se crea, ya sea vacía o conformada con los elementos que el programador incluya. La expresión para crear una lista tiene la siguiente forma:</span></p>
-							<div class="quote">
-								(define nombre-lista  ' (elem1 elem2 elem3…elemn))
-							</div>
-							<div class="container">
-								<details class="default square">
-									<summary>Nombre-lista</summary>
-									<p>Nombre que el programador le asigna a la lista según su gusto y conveniencia.</p>
-								</details>
-								<details class="primary square">
-									<summary>Apóstrofe (') o función quote </summary>
-									<p>Indica que lo que sigue entre paréntesis es una lista de valores literales.</p>
-								</details>
-								<details class="success">
-									<summary>Elementos</summary>
-									<p>Donde los elem1 elem2 elem3…elemn son los componentes de la lista. Cada elemento puede ser un dato de <br> diferente tipo, ya sea numérico, carácter, cadena, símbolo u otra lista.</p>
-								</details>	
-									
-								 <div class="click">
-  									<button onclick="simulator_FB ()" Id="click_button">Ej.</button>
-								</div>
-
-								<div Id="window">
- 								 <p>Here Pop up window</p>
- 								 <button onclick="simulator_FB_close ()" Id="close">Close</button>
-								</div>
-								</div>    
+						<div class="text-center">
+							<div class="rerun-button">ReRun</div>
 						</div>
+					</div>
 
+
+					<div class="panel" id="panel3">
+						<h1 class = "panelContent"><img src="quote.png" /></h1>
+						<p id="parrafo3"><span> Para definir una lista se debe asignar un nombre y se crea, ya sea vacía o conformada con los elementos que el programador incluya. La expresión para crear una lista tiene la siguiente forma:</span></p>
+						<div class="quote">
+							(define nombre-lista  ' (elem1 elem2 elem3…elemn))
+						</div>
+						<div class="container">
+							<details class="default square">
+								<summary>Nombre-lista</summary>
+								<p>Hace referecia al nombre que el programador le asigna a la lista según su gusto y conveniencia.
+								</p>
+							</details>
+							<details class="primary square">
+								<summary>Apóstrofe (') o función quote </summary>
+								<p>Indica que lo que sigue entre paréntesis es una lista de valores literales.</p>
+							</details>
+							<details class="success">
+								<summary>Elementos</summary>
+								<p>Donde los elem1 elem2 elem3…elemn son los componentes de la lista. Cada elemento puede ser un dato de <br> diferente tipo, ya sea numérico, carácter, cadena, símbolo u otra lista.</p>
+							</details>	
+
+						</div>   
+						<div class="botonPestaña3">
+							<div class="click">
+								<button onclick="simulator_FB ()" Id="click_button">Ej.</button>
+							</div>
+
+							<div Id="window">
+								<p><b>Ejemplo:</b>
+									<p>Defina una lista con los números pares 2 4 6 y 8. 
+									<br>	
+									 <b>Solucion: </b> 
+									<br>	 
+									(define numerosPares '(2 4 6 8)) 
+									(display numerosPares) </p>
+									<button onclick="simulator_FB_close ()" Id="close"><b>X</b></button>
+								</div>
+							</div>
+						</div>	
 
 
 						<div class="panel" id="panel4">
@@ -313,13 +321,6 @@ and open the template in the editor.
 						</div>
 					</div>
 				</div>
-
-
-
-
-
-
-
 
 
 				<!--  </div>-->
