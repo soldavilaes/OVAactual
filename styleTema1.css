@@ -1420,7 +1420,7 @@ left: 140px;
     height: 160px;
     width: 180px;
     float: left;
-    margin: 190px -530px;
+    margin: 190px -420px;
    
 }
 
@@ -1428,7 +1428,7 @@ left: 140px;
     height: 160px;
     width: 180px;
     float: left;
-    margin: 190px -530px;
+    margin: 190px -420px;
    border-radius: 10px 10px 10px 10px;
    cursor: pointer;
 }
@@ -1437,7 +1437,7 @@ left: 140px;
   height: 160px;
     width: 180px;
     float: left;
-    margin: 190px -210px;
+    margin: 190px -220px;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
 }
@@ -1446,7 +1446,7 @@ left: 140px;
   height: 160px;
     width: 180px;
     float: left;
-    margin: 190px 90px;
+    margin: 190px -20px;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
 }
