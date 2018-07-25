@@ -1105,9 +1105,9 @@ label:first-child {
 .modal-wrap {
   max-width: 850px;
   margin: -2px auto;
-  transition: -webkit-transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 600ms ease-in-out;
+  transition: transform 600ms ease-in-out;
+  transition: transform 600ms ease-in-out, -webkit-transform 300ms ease-in-out;
   }
 
 .modal-header {
@@ -1162,14 +1162,14 @@ label:first-child {
 }
 
 .animate-in {
-  -webkit-animation: in 500ms ease-in-out forwards;
-          animation: in 500ms ease-in-out forwards;
+  -webkit-animation: in 800ms ease-in-out forwards;
+          animation: in 800ms ease-in-out forwards;
   display: block;
 }
 
 .animate-up {
-  -webkit-transform: translateY(-500px) rotate(30deg);
-          transform: translateY(-500px) rotate(30deg);
+  -webkit-transform: translateY(-800px) rotate(30deg);
+          transform: translateY(-800px) rotate(30deg);
 }
 
 @-webkit-keyframes out {
