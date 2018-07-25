@@ -1417,10 +1417,38 @@ left: 140px;
 
 /*LIGHTBOX*/
 .lightbox {
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 180px;
     float: left;
-    margin: 10px;
+    margin: 190px -530px;
+   
+}
+
+#ejemplo1 {
+    height: 160px;
+    width: 180px;
+    float: left;
+    margin: 190px -530px;
+   border-radius: 10px 10px 10px 10px;
+   cursor: pointer;
+}
+
+#ejemplo2 {
+  height: 160px;
+    width: 180px;
+    float: left;
+    margin: 190px -210px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+ #ejemplo3 {
+  height: 160px;
+    width: 180px;
+    float: left;
+    margin: 190px 90px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
 }
 
 .img-popup {
@@ -1449,6 +1477,8 @@ left: 140px;
     display: inline-block;
     transform: translate(-50%, -50%);
 }
+
+
 
 .close-lightbox {
     position: absolute;
