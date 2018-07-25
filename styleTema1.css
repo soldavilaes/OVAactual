@@ -677,7 +677,7 @@ header.active, .intro.active, #menu-left.active, footer.active {
   section {margin-top: 57px}
   article .box .feed p {font-size: 12px;}
 }*/
-
+/* PESTAÑAS */
 .tabbedPanels {
   width: 75%;
   margin: 10px auto;
@@ -752,6 +752,9 @@ header.active, .intro.active, #menu-left.active, footer.active {
 
 .tabFour{
   background-color:  #FF6347;
+}
+.tabFive{
+  background-color: #FFA07A;
 }
 
 .panel {
@@ -1105,9 +1108,9 @@ label:first-child {
 .modal-wrap {
   max-width: 850px;
   margin: -2px auto;
-  transition: -webkit-transform 600ms ease-in-out;
-  transition: transform 600ms ease-in-out;
-  transition: transform 600ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
   }
 
 .modal-header {
@@ -1799,7 +1802,7 @@ color: #FFF;
 font-size: 17px;
 }
 
-
+/* PESTAÑA 5 */
 
 
 
