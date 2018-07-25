@@ -874,11 +874,11 @@ h1.panelContent img {
 }
 
 #imagen4 {
-  margin: -20px -556px;
+  margin: -25px -556px;
 }
 
 #imagen5 {
-  margin: -20px -556px;
+  margin: -25px -556px;
 }
 
 #imagen6 {
@@ -1052,18 +1052,24 @@ label:first-child {
   margin: 305px;
  left: 400px;
  font-size: 14px;
+
 }
 
 #botonStep2 {
    margin: 70px;
   left: 635px;
   font-size: 14px;
+  font-weight: normal;
 }
 
 #botonStep3 {
-  margin: 70px;
- left: 635px;
+ top: 298px;
  font-size: 14px;
+ left: 85px;
+ width: 310px;
+ height: 40px;
+ 
+  
 }
 
 
@@ -1076,7 +1082,7 @@ label:first-child {
   letter-spacing: 1px;
   display: inline-block;
   cursor: pointer; 
-
+  margin: -300px 405px;
 }
 
 .button:hover,
@@ -1362,17 +1368,17 @@ color: #000000;
 font-size: 18px;
 font-weight: 400;
 text-align: center;
-background: #889ccf;
+background: linear-gradient(to bottom, #99ccff 0%, #3366ff 100%);
 margin: 58px -80px 25px;
 overflow: hidden;
 padding: 5px;
 border-radius: 35px 0px 35px 0px;
 -moz-border-radius: 35px 0px 35px 0px;
 -webkit-border-radius: 35px 0px 35px 0px;
-border: 2px solid #5878ca;
+border: 2px solid #1219fb;
 width: 550px;
 height: 64px;
-left: 10px;
+left: 20px;
 }
 
 .caja1 {
@@ -1381,17 +1387,17 @@ color: #000000;
 font-size: 18px;
 font-weight: 400;
 text-align: center;
-background: #889ccf;
+background: linear-gradient(to bottom, #99ccff 0%, #3366ff 100%);
 margin: 58px 0px 25px;
 overflow: hidden;
 padding: 5px;
 border-radius: 35px 0px 35px 0px;
 -moz-border-radius: 35px 0px 35px 0px;
 -webkit-border-radius: 35px 0px 35px 0px;
-border: 2px solid #5878ca;
+border: 2px solid #1219fb;
 width: 550px;
 height: 64px;
-left: 115px;
+left: 135px;
 
 }
 
@@ -1401,17 +1407,17 @@ color: #000000;
 font-size: 18px;
 font-weight: 400;
 text-align: center;
-background: #889ccf;
+background: linear-gradient(to bottom, #99ccff 0%, #3366ff 100%);
 margin: 58px 0px 25px;
 overflow: hidden;
 padding: 5px;
 border-radius: 35px 0px 35px 0px;
 -moz-border-radius: 35px 0px 35px 0px;
 -webkit-border-radius: 35px 0px 35px 0px;
-border: 2px solid #5878ca;
-width: 1310px;
+border: 2px solid #1219fb;
+width: 1470px;
 height: 64px;
-left: 140px;
+left: 170px;
 
 }
 
@@ -1431,6 +1437,8 @@ left: 140px;
     margin: 190px -420px;
    border-radius: 10px 10px 10px 10px;
    cursor: pointer;
+    -webkit-animation: pulse 1.5s infinite;
+
 }
 
 #ejemplo2 {
@@ -1440,6 +1448,7 @@ left: 140px;
     margin: 190px -220px;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
+    -webkit-animation: pulse 1.5s infinite;
 }
 
  #ejemplo3 {
@@ -1449,7 +1458,33 @@ left: 140px;
     margin: 190px -20px;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
+    -webkit-animation: pulse 1.5s infinite;
 }
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}
+
 
 .img-popup {
     position: fixed;
