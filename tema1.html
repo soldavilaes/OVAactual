@@ -22,6 +22,7 @@ and open the template in the editor.
 <link href="https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
 <link href="lightbox.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <!--
 	<meta name="viewport" content="width=device-width">
 
@@ -324,8 +325,34 @@ and open the template in the editor.
 						</div>
 						<div class="panel" id="panel5">
 							<h1 class = "panelContent"><img src="estructura.png" /></h1>
-							<p class = "panelContent"><span></span></p>
 							
+
+<div class="tabbed-content clearfix">
+		<!--Tabbed navigation-->
+    <ul class="tabss">
+      <li class="tab-link current" data-tab="text-tab">Text</li>
+			<li class="tab-link" data-tab="video-tab">Video</li>
+			<li class="tab-link" data-tab="audio-tab">Audio</li>
+	</ul>
+	<!--Wrapper to contain interchanging content-->
+	<div class="tabs-wrapper">
+		<!--textual tab content-->
+		<div id="text-tab" class="tab-content current">
+			<h2>Heading for tab link one</h2>
+			<p>Text to go here blah blah blah</p>
+		</div> 
+		<!--video tab content-->
+		<div id="video-tab" class="tab-content">
+			<iframe src="https://www.youtube.com/embed/o8DZxBM9fY0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<!--audio tab content-->
+		<div id="audio-tab" class="tab-content">
+			<audio src="http://robbbenson.com/01%20Angel.mp3" controls preload></audio>
+		</div>
+	</div>
+</div>
+  
+						
 						</div>
 					</div>
 				</div>
@@ -336,6 +363,7 @@ and open the template in the editor.
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			
     		<script src="lightbox.js"></script>
 			<script  src="tema1.js"></script>
 			<script  src="pestaña2.js"></script>
