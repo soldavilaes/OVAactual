@@ -896,6 +896,13 @@ h1.panelContent img {
 #imagen8 {
   margin: 45px  -55px;
 }
+#imagen9 {
+  margin: -26px  -555px;
+}
+#imagen10 {
+  margin: -26px  -555px;
+}
+
 
 .quote {
     text-align: center;
@@ -1923,6 +1930,34 @@ font-size: 17px;
   font-family: 'Open Sans', sans-serif;
  }
 
+#esEjemplo1 span {
+  font-style: normal;
+  margin: 15px 40px; 
+   text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: -45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 750px;
+ }
+
+
+#esEjemplo2 span {
+  font-style: normal;
+  margin: 15px 40px; 
+   text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: -45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 710px;
+ }
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
