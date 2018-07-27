@@ -890,7 +890,7 @@ h1.panelContent img {
    z-index: 100;
 }
 #imagen7 {
-  margin: -28.5px  -555px;
+  margin: -26px  -555px;
 }
 
 #imagen8 {
@@ -1911,6 +1911,16 @@ font-size: 17px;
 }
  #estructura span {
   font-style: normal;
+  font-weight: bold;
+  margin: 45px 540px; 
+ }
+
+ #indicacion2 span {
+  font-style: italic;
+  font-weight: bold;
+  margin: -75px -20px; 
+  color: #ff6600;
+  font-family: 'Open Sans', sans-serif;
  }
 
 * {
