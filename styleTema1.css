@@ -825,28 +825,6 @@ h1.panelContent img {
   left: 5px; 
  }
 
- #lVacia span {
-   font-style: normal;
- }
-
-  #lVacia1 span {
-   font-style: normal;
- }
-
- #lVacia2 span {
-   font-style: normal;
-   font-family:'Open Sans', sans-serif;
-  font-size: 20px;
-  position: absolute;
-  width: 880px;
-  top: 140px;
-  line-height: 1;
-  left: 5px; 
-  color: #f75904;
-  font-weight: bold;
- }
-
-
 #panel1 .panelContent {
   height: 204px;
 }
@@ -926,13 +904,6 @@ h1.panelContent img {
   font-weight: bold;
 }
 
-.titleStep3 {
-
-  top: 10px
- 
-  left: -422px;
-}
-
 .title1 {
   
   
@@ -981,24 +952,8 @@ h1.panelContent img {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   height: 850px;
-  margin: -20px;\
-  font-style: normal;
-  font-weight: lighter;
-}
-
-.description #lVacia1 {
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 1;
-  color:#000000;
-  position: absolute;
-  left: 30px;
-  right: 33px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  height: 850px;
-  margin: -20px;\
-  
+  margin: -20px;
+ 
 }
 
 input[type="text"],
@@ -1058,12 +1013,6 @@ label:first-child {
    margin: 70px;
   left: 635px;
   font-size: 14px;
-}
-
-#botonStep3 {
-  margin: 70px;
- left: 635px;
- font-size: 14px;
 }
 
 
@@ -1353,220 +1302,7 @@ label:first-child {
   transform: skew(10deg, 0deg) translateX(20px);
   right: 13px;
   text-align: center;
-  font-style: italic;
 }
-
-.caja {
-font-family: Sansita;
-color: #000000;
-font-size: 18px;
-font-weight: 400;
-text-align: center;
-background: #889ccf;
-margin: 58px -80px 25px;
-overflow: hidden;
-padding: 5px;
-border-radius: 35px 0px 35px 0px;
--moz-border-radius: 35px 0px 35px 0px;
--webkit-border-radius: 35px 0px 35px 0px;
-border: 2px solid #5878ca;
-width: 550px;
-height: 64px;
-left: 10px;
-}
-
-.caja1 {
-font-family: Sansita;
-color: #000000;
-font-size: 18px;
-font-weight: 400;
-text-align: center;
-background: #889ccf;
-margin: 58px 0px 25px;
-overflow: hidden;
-padding: 5px;
-border-radius: 35px 0px 35px 0px;
--moz-border-radius: 35px 0px 35px 0px;
--webkit-border-radius: 35px 0px 35px 0px;
-border: 2px solid #5878ca;
-width: 550px;
-height: 64px;
-left: 115px;
-
-}
-
-.caja2 {
-font-family: Sansita;
-color: #000000;
-font-size: 18px;
-font-weight: 400;
-text-align: center;
-background: #889ccf;
-margin: 58px 0px 25px;
-overflow: hidden;
-padding: 5px;
-border-radius: 35px 0px 35px 0px;
--moz-border-radius: 35px 0px 35px 0px;
--webkit-border-radius: 35px 0px 35px 0px;
-border: 2px solid #5878ca;
-width: 1310px;
-height: 64px;
-left: 140px;
-
-}
-
-/*LIGHTBOX*/
-.lightbox {
-    height: 160px;
-    width: 180px;
-    float: left;
-    margin: 190px -420px;
-   
-}
-
-#ejemplo1 {
-    height: 160px;
-    width: 180px;
-    float: left;
-    margin: 190px -420px;
-   border-radius: 10px 10px 10px 10px;
-   cursor: pointer;
-}
-
-#ejemplo2 {
-  height: 160px;
-    width: 180px;
-    float: left;
-    margin: 190px -220px;
-    border-radius: 10px 10px 10px 10px;
-    cursor: pointer;
-}
-
- #ejemplo3 {
-  height: 160px;
-    width: 180px;
-    float: left;
-    margin: 190px -20px;
-    border-radius: 10px 10px 10px 10px;
-    cursor: pointer;
-}
-
-.img-popup {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(38, 40, 52, 0.9);
-    text-align: center;
-    display: none;
-    z-index: 9999999999999;
-    animation: pop-in;
-    animation-duration: 0.5s;
-    -webkit-animation: pop-in 0.5s;
-    -moz-animation: pop-in 0.5s;
-    -ms-animation: pop-in 0.5s;
-
-}
-
-.img-popup img {
-    position: absolute;
-    top: 50%;
-    max-width: 80%;
-    max-height: 80vh;
-    display: inline-block;
-    transform: translate(-50%, -50%);
-}
-
-
-
-.close-lightbox {
-    position: absolute;
-    top: 45px;
-    right: 20%;
-    padding: 0px 10px;
-    color: #fff;
-    font-size: 35px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    z-index: 99;
-    cursor: pointer;
-}
-.lightboxfadeout{
-    animation: fadeout;
-    animation-duration: 0.5s;
-    -webkit-animation: fadeout 0.5s;
-    -moz-animation: fadeout 0.5s;
-    -ms-animation: fadeout 0.5s;
-}
-
-@keyframes pop-in {
-    0% {
-        opacity: 0;
-        transform: scale(0.1);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@-webkit-keyframes pop-in {
-    0% {
-        opacity: 0;
-        -webkit-transform: scale(0.1);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: scale(1);
-    }
-}
-
-@-moz-keyframes pop-in {
-    0% {
-        opacity: 0;
-        -moz-transform: scale(0.1);
-    }
-    100% {
-        opacity: 1;
-        -moz-transform: scale(1);
-    }
-}
-
-
-@keyframes fadeout {
-    100% {
-        opacity: 0;
-        transform: scale(0.1);
-    }
-    0% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@-webkit-keyframes fadeout {
-    100% {
-        opacity: 0;
-        -webkit-transform: scale(0.1);
-    }
-    0% {
-        opacity: 1;
-        -webkit-transform: scale(1);
-    }
-}
-
-@-moz-keyframes fadeout {
-    100% {
-        opacity: 0;
-        -moz-transform: scale(0.1);
-    }
-    0% {
-        opacity: 1;
-        -moz-transform: scale(1);
-    }
-}
-
 
 /* PESTAÑA 3*/
 .container {
@@ -1597,7 +1333,6 @@ details {
   -webkit-transform: rotate(0.1deg);
           transform: rotate(0.1deg);
   transition: all 0.3s;
-  font-family:'Open Sans', sans-serif;
   
 }
 
@@ -1724,7 +1459,7 @@ button{
 
 #window
 {
-width: 900px;
+width: 600px;
 height: 158px;
 background: rgba(0,0,0,.8);
 opacity: 15px;
@@ -1732,27 +1467,30 @@ position: relative;
 text-align: center;
 border-radius: 10px;
 display: none;
+left: 150px;
 
 
 }
 
 #window p{
+
 font-family: 'Open Sans', sans-serif;
-font-size: 15px;
-line-height: 100px;
-font-family: 'Open Sans', sans-serif;
-padding: 10px 3px;
-font-size: 5px;
-line-height: 100px;
+font-style: normal;
+font-size: 12px;
+line-height: 1;
 background: #FFFF;
-left: 238px;
-top: 5px;
-width: 420px;
-height: 95px;
-text-indent: 5px;
+left: 140px;
+top: 0px;
+width: 300px;
+height: 132px;
 text-align: justify;
+margin: 15px 0 0;
+padding: 0 10px 15px;
+border-radius: 10px;
 
 }
+
+
 #close{
 position: absolute;
 top: 5px;
